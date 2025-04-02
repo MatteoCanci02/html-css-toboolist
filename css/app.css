@@ -15,6 +15,7 @@ body{
     padding: 24px;
     background-color: white;
     margin-top: 10px;
+    border-radius: 6px;
 }
 
 /* HEADER */
@@ -29,10 +30,20 @@ body{
 
 /* MAIN */
 .page-button{
-    
+    border-radius: 4px;
 }
 
 .page-list{
     list-style: none;
     font-family: "Gidole", sans-serif;
+}
+
+.list-card{
+    background-color: aqua;
+    width: 40px;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Gidole", sans-serif;
+    font-size: 10px;
 }
