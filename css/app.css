@@ -4,3 +4,35 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: grey;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+/* HEADER */
+.page-header{
+    background-color: white;
+}
+
+.image-header{
+    width: 200px;
+    padding: 0 24px;
+}
+
+/* MAIN */
+.page-button{
+    
+}
+
+.page-list{
+    list-style: none;
+    font-family: "Gidole", sans-serif;
+}
