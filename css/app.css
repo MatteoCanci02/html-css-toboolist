@@ -31,19 +31,28 @@ body{
 /* MAIN */
 .page-button{
     border-radius: 4px;
+    padding: 3px;
+    border: 2px solid rgb(89, 176, 219);
+}
+
+.section-button{
+    padding: 24px;
+    border-bottom: 3px solid grey;
 }
 
 .page-list{
     list-style: none;
     font-family: "Gidole", sans-serif;
+    line-height: 40px;
 }
 
 .list-card{
     background-color: aqua;
-    width: 40px;
-    border-radius: 6px;
+    width: 60px;
+    border-radius: 20px;
     text-align: center;
     display: inline-block;
     font-family: "Gidole", sans-serif;
     font-size: 10px;
+    max-height: fit-content;
 }
