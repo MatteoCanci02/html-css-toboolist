@@ -3,74 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>toboolist</title>
+    <title>Toboolist</title>
     <link rel="stylesheet" href="./css/app.css">
-    <link rel="icon" href="./img/Toboolist-logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gidole&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
     <header class="page-header">
-        <img class="image-header" src="./img/Toboolist-logo.jpg" alt="Logo toboolist">
+        <img class="logo" src="./img/Toboolist-logo.jpg" alt="Toboolist Logo">
     </header>
 
     <main>
         <div class="container">
-            <div class="card">
-                <div class="section-button">
-                    <button class="page-button" style="background-color: rgb(89, 176, 219);">Add Task</button>
-                    <button class="page-button">Add Section</button>
-                </div>
 
-                <ul class="page-list">
-                    <li>
-                        <h3>&#9662; New Task</h3>
-                    </li>
-                    <li>
-                        &#9989; Lorem, ipsum dolor.
-                        <div class="list-card"><p>editorial</p></div>
-                    </li>
-                    <li><h3>&#9662; Today</h3></li>
-                    <li>
-                        &#9989; Lorem, ipsum.
-                        <div class="list-card">editorial</div>
-                    </li>
-                    <li>
-                        &#9989; Lorem ipsum dolor sit amet.
-                        <div class="list-card">editorial</div>
-                    </li>
-                    <li>
-                        &#10060; Lorem ipsum dolor sit amet.
-                        <div class="list-card">editorial</div>
+            <div class="section-button">
+                <button class="button">Add Task</button>
+                <button class="button-outline button">Add Section</button>
+            </div>
 
-                    </li>
-                    <li>
-                        &#9989; Lorem, ipsum dolor.
-                        <div class="list-card">editorial</div>
-                    </li>
-                    <li><h3>&#9662; Upcoming</h3></li>
-                    <li>
-                        &#10060; Lorem ipsum dolor sit amet consectetur.
-                        <div class="list-card">editorial</div>
-                    </li>
-                    <li>
-                        &#9989; Lorem ipsum dolor sit.
-                        <div class="list-card">editorial</div>
-                    </li>
-                    <li>
-                        &#9989; Lorem, ipsum.
-                        <div class="list-card">editorial</div>
-                    </li>
-                    <li>
-                        &#9989; Lorem ipsum dolor sit amet consectetur.
-                        <div class="list-card">editorial</div>
-                    </li>
-                </ul>
+            <div class="list">
+               <ul>
+                <li>
+                    <span>&#9660;</span>
+                    <span class="title"><strong>New Task</strong></span>
+                </li>
+                <li>
+                    <span class="item check">&check;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+                <li class="list-title">
+                    <span class="list-title">&#9660;</span>
+                    <span class="title"><strong>Today</strong></span>
+                </li>
+                <li>
+                    <span class="item check">&check;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+                <li>
+                    <span class="item check">&check;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+                <li>
+                    <span class="item cross">&cross;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+                <li>
+                    <span class="item check">&check;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+                <li class="list-title">
+                    <span>&#9660;</span>
+                    <span class="title"><strong>Upcomig</strong></span>
+                </li>
+                <li>
+                    <span class="item cross">&cross;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+                <li>
+                    <span class="item check">&check;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+                <li>
+                    <span class="item check">&check;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+                <li>
+                    <span class="item check">&check;</span>
+                    Lorem, ipsum.
+                    <span class="badge">Editorial</span>
+                </li>
+               </ul> 
             </div>
         </div>
     </main>
 
+
 </body>
+
 </html>
